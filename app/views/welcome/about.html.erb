@@ -1,0 +1,12 @@
+<style type="text/css">
+	body{
+		background-color: <%= @color %>;
+	}
+</style>
+<h1>About me</h1>
+<p>Find me in app/views/welcome/about.html.erb</p>
+<p>My favorite color is <%= @color %></p>
+<p>My Shoe size is <%= @size %></p>
+<% if @size > 12%>
+	<h3>I have Huge feet!</h3>
+<% end %>
